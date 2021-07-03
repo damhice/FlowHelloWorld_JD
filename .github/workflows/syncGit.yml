@@ -24,8 +24,8 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/JDHelloWorld/jd_scripts.git"
-          source_branch: "main"
-          destination_branch: "main"
+          source_branch: "damhice-patch-1"
+          destination_branch: "damhice-patch-1"
           github_token: ${{ secrets.PAT }}
       # 我自己同步到gitee使用，其他人可忽略
       - name: sync github -> gitee
